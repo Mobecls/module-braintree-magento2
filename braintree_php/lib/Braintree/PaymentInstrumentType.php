@@ -15,5 +15,6 @@ class PaymentInstrumentType
     const US_BANK_ACCOUNT     = 'us_bank_account';
     const VENMO_ACCOUNT       = 'venmo_account';
     const VISA_CHECKOUT_CARD  = 'visa_checkout_card';
+    const COINBASE_ACCOUNT    = 'coinbase_account';
 }
 class_alias('Braintree\PaymentInstrumentType', 'Braintree_PaymentInstrumentType');
